@@ -580,3 +580,21 @@ some_Variable <- c(1,2,3)
 # cannot be undone
 
 
+# resolving git conflicts -------------------------------------------------
+
+# commit/merge conflicts can occur when two collaborators commit different
+# changes at the same time
+
+library(tidyverse)
+ggplot(diamonds,
+       aes(y=cut)) +
+  geom_bar() +
+  theme_minimal()
+
+# run this command in the terminal `git merge --abort` to abort
+# now deal with the conflict `git merge colab` (colab is a branch), fails, then look at R script,
+# this shows the different versions of codes, fix it there.
+
+
+
+

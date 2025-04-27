@@ -605,9 +605,10 @@ library(usethis)
 create_github_token() # grab token from github website after being directed by this command
 gitcreds::gitcreds_set() # prompted to enter token
 
-# put a project onto github
+# now push this repository to github
 use_github()
 
 # create a readme
 use_readme_md()
+
 

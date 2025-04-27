@@ -566,6 +566,6 @@ use_git_config(user.name='Kar Man Tan',
 
 # lots of new code blablabla just to demonstrate for commit
 
-
+# keep comments short
 
 

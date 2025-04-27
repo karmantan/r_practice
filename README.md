@@ -4,5 +4,5 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of r_practice is to allow quick access to common R commands for data wrangling.
+The goal of r_practice is to grant quick access to common R commands for data wrangling.
 

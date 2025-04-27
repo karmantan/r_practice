@@ -33,4 +33,11 @@ ggplot(billboard_top4,
        color = "Song title",
        title = "Popular songs of 2000") +
   scale_color_brewer(palette = "Dark2") +
+  # billboard ranks, lower is better, therefore reverse chart
+  ylim(c(85,0)) + # flip axes, this is the change
   theme_minimal() 
+
+
+# make a new branch by going to the git tab and click on new branch on the right side
+# call it sandbox and then you can see a dropdown menu next to "new branch"
+# commit to sandbox

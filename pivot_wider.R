@@ -11,3 +11,6 @@ table2 %>%
   pivot_wider(id_cols=c(country,year),
               names_from = type,
               values_from = count)
+
+# doing a merge on git, you want to be in the branch you are merging INTO 
+# not in the branch you are merging from

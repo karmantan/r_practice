@@ -596,5 +596,18 @@ ggplot(diamonds,
 # this shows the different versions of codes, fix it there.
 
 
+# setting up R to work with github ----------------------------------------
 
+# GitHub setup
+library(usethis)
+
+# connect rstudio to github
+create_github_token() # grab token from github website after being directed by this command
+gitcreds::gitcreds_set() # prompted to enter token
+
+# put a project onto github
+use_github()
+
+# create a readme
+use_readme_md()
 

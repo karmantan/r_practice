@@ -14,3 +14,7 @@ table2 %>%
 
 # doing a merge on git, you want to be in the branch you are merging INTO 
 # not in the branch you are merging from
+
+# go to terminal `git merge sandbox --message "do the merge"`
+
+# now that we are done with the branch we can delete it `git branch -d sandbox`

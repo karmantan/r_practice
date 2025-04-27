@@ -557,4 +557,15 @@ library(usethis)
 use_git_config(user.name='Kar Man Tan',
                user.email='carmen-tan@hotmail.com')
 
+# next to the environment, history, connections tab, click on "git"
+# select projects to commit/stage
+# click commit
+
+
+# edit and track changes --------------------------------------------------
+
+# lots of new code blablabla just to demonstrate for commit
+
+
+
 
